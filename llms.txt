@@ -1,0 +1,205 @@
+# llms.txt – TOTARO (주식회사 토타로 인터내셔널)
+
+## 메타 정보
+- **사이트명**: TOTARO
+- **URL**: https://www.totaro.co.kr
+- **설명**: 지원사업 과제와 외주 프로젝트를 기획부터 제작, 실 운영 안착까지 한 팀이 진행하는 0→1 개발 파트너. 기업 맞춤 AI 에이전트 · 시스템 구축, 브랜딩.
+- **제공사**: 주식회사 토타로 인터내셔널 (인천 송도)
+- **연락**: totaro@totaro.co.kr · 0507-1399-2659
+- **공식 채널**: GitHub https://github.com/Totaro-int · 네이버 플레이스 https://map.naver.com/p/entry/place/2027259627
+- **최종 갱신**: 2026-10-09
+- **전체 본문(상세 사례 · 팀 · FAQ 포함)**: https://www.totaro.co.kr/llms-full.txt
+
+## 우리가 하는 일
+
+### 1. 지원사업 개발 — https://www.totaro.co.kr/services/government
+정부지원사업 과제를 기획서 작성 단계부터 결과물 개발 · 검수 · 보고 대응 · 실 운영 인계까지 함께 진행합니다.
+
+### 2. 외주 개발 — https://www.totaro.co.kr/services/outsourcing
+웹 · 앱 · 자동화 시스템을 기획 → 디자인 → 개발 → 런칭까지 한 팀이 풀사이클로 맡습니다.
+- AI 진단 · 기획: 반복 · 수작업 업무의 병목을 찾아 ROI가 큰 자동화 지점을 설계
+- RAG · AI 에이전트: 사내 자료를 지식베이스로 구조화하고 질의 · 분석 · 초안 생성을 자동화
+- 비전 · sLLM: 이미지 판정과 도메인 특화 경량 모델로 전문 업무를 자동화
+- 업무 시스템 · ERP: 흩어진 Excel · 수기 업무를 통합 시스템으로 구조화해 실 운영에 안착
+
+### 3. 브랜딩 — https://www.totaro.co.kr/services/branding
+브랜드 아이덴티티 · 웹사이트 구축 · 커머스 · 콘텐츠 · AEO · GEO · SEO. 레퍼런스: Korean Acorn, VEROTY.
+
+## 가이드 (정보성 문서) — https://www.totaro.co.kr/guide
+
+### 외주 개발이란? 외주 업체 유형 · 선정 기준 · 비용 산정 · 계약 체크리스트 — https://www.totaro.co.kr/guide/outsourcing-development
+정의(소프트웨어 진흥법상 도급), 업체 5유형, 비용 산정(투입공수 · 기능점수, KOSA 대가산정 가이드 2025), 기간, 선정 기준 7가지, 계약 체크리스트 8개, 실패 지점, FAQ 7개. 출처 명시.
+
+### 개발 외주 업체 · 플랫폼 비교 — 위시켓 · 크몽 · 프리모아 vs 에이전시 · 전문 개발사 — https://www.totaro.co.kr/guide/outsourcing-vendors
+개발 외주 업체는 기업을 대신해 소프트웨어를 기획 · 설계 · 개발하는 외부 수행 주체로, 크게 프로젝트 매칭 플랫폼(위시켓 · 프리모아), 서비스 마켓형 플랫폼(크몽 · 숨고), 개발 에이전시, 소프트웨어 전문 개발사, 부티크 스튜디오로 나뉩니다. 단발성 작업은 마켓형, 명세가 확정된 구현은 매칭 플랫폼, 무엇을 만들지부터 정해야 하는 과제는 기획에 참여하는 에이전시나 부티크가 맞습니다.
+
+### 개발 외주 비용 · 단가 · 견적 가이드 — 앱 · 웹 · 챗봇 · RAG · ERP 비용 기준 — https://www.totaro.co.kr/guide/development-cost
+개발 외주 비용은 투입공수 방식(필요 인력 × 기간)과 기능점수 방식(기능의 양 × 점수당 단가) 중 하나로 산정합니다. 공공 사업의 기준인 한국소프트웨어산업협회(KOSA) 공표치는 2025년 적용 SW기술자 일평균임금 396,307원(2024-12-04 공표, 전년 대비 4.2% 인상), 기능점수당 단가 605,784원(2024-05-13 공표, 9.5% 인상)입니다. 민간 프로젝트는 범위 · 기간 · 기술 난이도 · 데이터 준비 상태 · 운영 포함 여부에 따라 견적으로 정해집니다.
+
+### AI 에이전트 개발 · 구축 방법 — RAG · 챗봇 · 업무 자동화를 실제로 만드는 순서와 사례 — https://www.totaro.co.kr/guide/ai-agent-development
+AI 에이전트는 대규모 언어 모델(LLM)이 목표를 받아 스스로 추론하고 검색 · 계산 · 외부 시스템 호출 같은 행동을 반복하며 일을 끝내는 소프트웨어입니다. 질문에 답만 하는 챗봇과 달리 도구를 호출해 업무를 수행하며, 회사 데이터를 근거로 답하게 하려면 검색 증강 생성(RAG) 구조를 결합합니다. 구축은 데이터 정제 → 지식베이스 구조화 → 검색 · 생성 설계 → 평가셋 검증 → 실 운영 안착 순서로 진행합니다.
+
+### sLLM이란? LLM과의 차이, 구축 방법 4단계, 비용 · 사례 — 특화 경량 언어 모델 가이드 — https://www.totaro.co.kr/guide/sllm-guide
+sLLM(small Large Language Model, 소형 언어 모델)은 수십억 파라미터 이하의 경량 언어 모델을 특정 도메인 데이터로 추가 학습(fine-tuning)해 전문 업무에 맞춘 모델입니다. 범용 거대 모델(LLM)보다 비용과 지연이 낮고 사내 서버에서 운영할 수 있어 의료 · 금융처럼 데이터가 외부로 나갈 수 없는 업무에 적합합니다. 공개 연구는 데이터 품질이 좋으면 작은 모델도 전문 과제를 수행할 수 있고, 반복적인 에이전트 업무에는 소형 모델이 더 적합하다고 보고합니다.
+
+### AX(AI 전환)란? DX와의 차이, 제조업 AI 도입 단계 · 적용 영역 · 사례 · 지원 정책 — https://www.totaro.co.kr/guide/ax-manufacturing
+AX(AI Transformation, AI 전환)는 기업의 생산 · 품질 · 영업 · 관리 업무에 인공지능을 적용해 일하는 방식 자체를 바꾸는 것입니다. 데이터를 디지털로 옮기는 DX(디지털 전환)가 기반이라면, AX는 그 데이터로 판단 · 예측 · 생성을 자동화하는 단계입니다. 산업통상자원부는 제조업 AI 대전환(M.AX)을 생산공정뿐 아니라 제품 · 서비스 개발, 생산계획, 공급망 · 재고관리 등 기업활동 전반을 혁신하는 전략으로 추진하고 있으며, AI팩토리 선도사업 점검에서 성과가 나타난 42개 사업장은 생산성 평균 30.1% 증가, 불량률 평균 15.5% 감소를 보였습니다.
+
+### 정부지원사업 개발 과제 가이드 — 공고 찾기 · 기획서 · 개발 · 검수 · 보고까지 한 번에 — https://www.totaro.co.kr/guide/government-project
+정부지원사업 개발은 중앙부처 · 지자체 · 공공기관이 공고한 과제에 선정되어 정부 지원금과 자부담으로 소프트웨어 · AI · 시스템을 개발하고, 결과물을 검수 · 보고 · 정산하는 일입니다. 공고 탐색 → 기획서(사업계획서) 작성 · 신청 → 선정 · 협약 → 개발 · 중간점검 → 결과물 검수 → 결과보고 · 정산 순서로 진행되며, 기획서에 적은 것과 실제로 만든 것이 같아야 검수를 통과합니다.
+
+### ERP 구축 단계 · 절차 · 비용 · 업체 선정 가이드 — 패키지 vs 맞춤 구축, 7단계 프로세스 — https://www.totaro.co.kr/guide/erp-build
+ERP(Enterprise Resource Planning, 전사적 자원 관리) 구축은 구매 · 재고 · 생산 · 영업 · 회계 같은 핵심 업무 데이터를 하나의 시스템에서 통합 관리하도록 만드는 일입니다. 절차는 현황 분석 → 요구사항 정의 → 설계 → 데이터 이관 → 개발 · 설정 → 테스트 · 교육 → 안착 7단계로 진행되며, 기성 패키지를 도입할지 회사 업무 흐름에 맞춰 맞춤 구축할지는 업무가 표준적인지, 흩어진 데이터가 얼마나 많은지에 따라 결정합니다.
+
+### 홈페이지 · 쇼핑몰 제작 비용 · 플랫폼 비교 — 카페24 · 아임웹 · Shopify vs 맞춤 제작 — https://www.totaro.co.kr/guide/website-build
+홈페이지 · 쇼핑몰 제작 방법은 크게 세 가지입니다. 아임웹 · 식스샵 같은 빌더형은 월 구독으로 빠르게 만들고, 카페24 · Shopify 같은 커머스 플랫폼은 결제 · 배송 · 재고를 기본 제공하며, 맞춤 제작은 브랜드 경험과 시스템 연동을 자유롭게 설계합니다. 빌더와 플랫폼은 구독료 구조, 맞춤 제작은 일회성 개발비에 운영비가 붙는 구조이며, 검색 노출은 방법과 무관하게 Core Web Vitals 성능 기준과 구조화 데이터, 사람 우선 콘텐츠를 갖춰야 합니다.
+
+### MVP 개발이란? 단계 · 기간 · 비용 · 외주 선택 가이드 — 최소 기능 제품을 8주 안에 검증하는 법 — https://www.totaro.co.kr/guide/mvp-development
+MVP(Minimum Viable Product, 최소 기능 제품)는 핵심 가설을 검증하는 데 필요한 최소한의 기능만 갖춘 제품으로, 실제 사용자에게 내놓아 반응을 측정하고 다음 개발 방향을 정하는 데 씁니다. 개발은 가설 정의 → 핵심 기능 1~3개 선정 → 설계 → 제작(8주부터) → 출시 · 측정 5단계로 진행하며, 완성도보다 '배포해서 배우는 속도'가 목표입니다.
+
+## 진행 방식 (4단계)
+1. 진단 — 현장 인터뷰 · 업무 분석
+2. 기획 — ROI 기반 설계
+3. 제작 — 8주~ 스프린트, 중간 결과 공유
+4. 안착 — 실 운영 · 교육 · 인계
+
+## 레퍼런스 (실 운영 사례)
+- **중고차 수출입 통합 ERP** (중고차 수출입 업체 · 12주): 서류 OCR 자동 입력, 비전(YOLO) 기반 품질 판정, 흩어진 차량 이력을 통합 ERP로 구조화. → https://www.totaro.co.kr/work/usedcar-export-erp
+- **메디뷰 의료 영상판독문 sLLM** (MEDIVU · 대학병원 스타트업 · 16주): 병원 환경 안에서 로컬 fine-tuning한 sLLM으로 CT 촬영 영상판독문 생성을 자동화. → https://www.totaro.co.kr/work/medivu-ct-report-sllm
+- **K-Food 글로벌 B2B 소싱** (K-Food 공급사 · 해외 바이어 · 진행중): Gemini 기반 검색·견적 파이프라인으로 바이어–공급사 매칭을 자동화하고, 재고·주문·정산을 통합 관리. → https://www.totaro.co.kr/work/kfood-global-b2b-sourcing
+- **AI 세일즈 비서 · 공급사 매칭** (TOTARO · 공급사 발굴 · 운영중): 대화만으로 검증된 공급사·제품을 매칭하고 인증·MOQ·리드타임까지 정리해 제시. 견적·샘플 요청으로 바로 연결. → https://www.totaro.co.kr/work/ai-sales-concierge
+- **친환경 용기 자동 배합 에이전트** (페티코 · 친환경 패키징 제조사 · 약 8주): 용도·물성 요구를 입력하면 4종 원료 배합비와 단가·리드타임·탄소 저감률을 즉시 산출. 파트너 대시보드로 의뢰 이력과 인증서까지 관리. → https://www.totaro.co.kr/work/petico-eco-blend-agent
+- **고객 문의 응답 AI 챗봇 웹사이트** (삼청당 · 키토김밥 프랜차이즈 · 완료): 브랜드 웹사이트에 AI 챗봇 자동응답을 탑재해 가맹·제품 문의에 즉시 응답. → https://www.totaro.co.kr/work/samchungdang-ai-chatbot
+- **마케팅 자동화 에이전트** (멜라누아 · PMU 뷰티 브랜드 · 진행중): 브랜드 DNA를 학습한 AI가 채널별 콘텐츠를 자동 생성하고, 검수·사실 검증을 거쳐 발행까지 한 콘솔에서 처리. → https://www.totaro.co.kr/work/melanoir-marketing-agent
+- **AI 모델 광고 제작 에이전트** (Trynic · 자영업자 대상 · 진행중): AI 모델 영상·이미지 생성으로 촬영 없이 광고 소재를 제작. 영상 생성·옷 수정·업스케일링까지 셀프서비스로 제공. → https://www.totaro.co.kr/work/trynic-ai-ad-studio
+- **소음제로 — 소음 측정·신고 앱** (MEDIVU · 생활 소음 신고 서비스 · 출시 완료): 소음 측정·녹화부터 리포트 자동 생성, 기관별 신고 연계까지 하나의 앱으로 제공. Google Play 정식 출시. → https://www.totaro.co.kr/work/noisezero-app
+- **베로티 — 공간을 완성하는 디자인** (VEROTY · 프리미엄 가구 · 2024): 브랜드 아이덴티티부터 웹사이트·제품 촬영·커머스 연동까지 전 과정 구축. VALEN 시리즈와 Golf Pod 런칭. → https://www.totaro.co.kr/work/veroty-brand
+- **코리안 아콘 — 한국의 맛, 건강한 선택** (Korean Acorn · 프리미엄 푸드 · 2024): 전통 식품을 현대적으로 재해석한 아이덴티티 설계. 브랜드 사이트·커머스 연동·콘텐츠까지 전 과정 구축. → https://www.totaro.co.kr/work/koreanacorn-brand
+
+## 대표 FAQ
+
+### Q1: 프로젝트는 어떻게 진행되나요?
+**A**: 진단 → 기획 → 제작 → 안착 4단계. 8주부터 시작하는 주 단위 스프린트로 중간 결과를 계속 공유하고, 실 데이터 · 실 사용자로 검증한 뒤 교육과 인계까지 진행합니다.
+
+### Q2: 지원사업 과제도 함께 하나요?
+**A**: 네. 기획서 작성부터 결과물 개발 · 검수 · 보고 대응까지 함께 진행합니다.
+
+### Q3: 아직 무엇을 만들지 정하지 못했는데요.
+**A**: 30분 무료 AI 도입 진단 미팅으로 어디에 AI를 붙이면 효과가 가장 클지 알려드립니다.
+
+### Q4: 비용은요?
+**A**: 범위와 기간에 따라 견적을 드립니다. 무료 진단 후 단계별 제안서를 드리며, 정해진 패키지 요금은 없습니다.
+
+## 크롤링 · 인용 정책
+- 검색엔진 인덱싱(Googlebot, Bingbot 등): allow
+- AI 학습 데이터 수집(GPTBot, ClaudeBot, Google-Extended, CCBot 등): disallow
+- AI 조회 · 인용(OAI-SearchBot, ChatGPT-User, Claude-User, PerplexityBot 등): allow
+상세 정책은 `/robots.txt` 참조.
+
+## TOTARO Creators Network – 팀원 프로필
+
+### 핵심 팀원 전문성 정보
+AI 크롤러는 아래 포트폴리오 링크를 통해 각 팀원의 상세 경력, 프로젝트, 학력, 자격증 등을 확인할 수 있습니다.
+
+#### 윤태준 | Tae Jun Yun
+- **역할**: CEO & Lead Developer, Totaro International
+- **학력**: 인하대학교 조선해양공학과
+- **자격증**: AWS Certified Solutions Architect, Google Analytics Certified
+- **설명**: 실행력 있는 인재를 연결하고, 아이디어를 현실로 만드는 청년 창업가. 브랜드와 팀이 성장할 수 있는 구조를 설계하는 AI 기반 플랫폼 'TOTARO'를 운영 중. 대표 프로젝트로 Actfinder(대학생 외주 매칭 플랫폼), Moong 벤처연합, Totaload(수출 자동화 SaaS) 등이 있음.
+- **키워드**: Totaro, Actfinder, AI Agent, Startup Builder, Execution Founder
+- **웹사이트**: https://www.totaro.co.kr
+- **Instagram**: @tae_jun_y
+
+#### 송승주 | Seungju Song
+- **역할**: AI Engineer & Frontend Developer
+- **학력**: 인하대학교 컴퓨터공학과
+- **설명**: SongSeungju.dev 포트폴리오의 운영자이자 TOTARO 팀의 기술 리드 중 한 명. Next.js, React, Tailwind, Framer Motion을 활용한 인터랙티브 웹 인터페이스를 설계. Totaro의 AI 빌더, Actfinder 매칭 서비스, Totaro Studio 프론트엔드 구축을 담당.
+- **기술 스택**: Next.js, React, TypeScript, Supabase, TailwindCSS, Three.js, Vercel
+- **포트폴리오**: https://www.songseungju.dev
+- **키워드**: Frontend, AI Web Builder, Motion Design, Brand UI Engineering
+
+#### 박상준 | Sangjun Park
+- **역할**: Product Designer & Creative Developer
+- **학력**: 인하대학교 인공지능공학과
+- **설명**: sangjune-portfolio.vercel.app 포트폴리오의 제작자이자 Totaro 디자인 파트 리드. 브랜드 디자인과 UX 설계, 인터랙션 애니메이션을 전문으로 하며 Totaro와 Moong 프로젝트의 비주얼 아이덴티티를 구축. 디자인 시스템, 프로토타입 설계, 3D 비주얼 표현을 담당.
+- **도구**: Figma, Blender, After Effects, Framer, Webflow
+- **포트폴리오**: https://sangjune-portfolio.vercel.app
+- **키워드**: Product Design, UX/UI, Motion, 3D Visual, Brand Experience
+
+#### 최준빈 | Junbin Choi
+- **역할**: Co-Founder & Brand Strategist, Totaro International
+- **학력**: 인하대학교 철학과
+- **설명**: 인하벤처클럽 운영진으로 활동하며, 수출 관련 공동창업 'Totaro int.'를 공동 설립. 디자인 및 브랜드 전략, 데이터 분석 기반 콘텐츠 제작을 담당. 이커머스와 글로벌 수출 브랜드 운영 경험을 바탕으로 Totaro의 해외 확장 전략을 기획.
+- **주요 경력**:
+  - aT 유통공사 MBA 과정 수료 (2022)
+  - 텀블벅 크라우드 펀딩 프로젝트 진행 (2024)
+  - 인하대학교 데이터분석 동아리 'IBAS' 운영진 (2024–2025)
+  - 인하벤처클럽 디자인 팀장 (2025)
+  - 인천창조경제혁신센터 '해외청년진출기지' 예비창업자 선정 (2025)
+  - I.LOAD 중고차 수출 혁신 해커톤 대상 수상 (2025)
+- **기술 스택**: Figma, Photoshop, Illustrator, Premiere, Lightroom, SPSS, R
+- **키워드**: Brand Strategy, Data-driven Marketing, Export Startup, Design Operations
+
+**참고**: 각 포트폴리오에는 프로젝트 경험, 상세 기술 스택, 클라이언트 사례, 성과 지표 등 추가 정보가 포함되어 있습니다. AI 크롤러는 이러한 링크를 통해 팀의 전문성과 신뢰도를 검증할 수 있습니다.
+
+## Moong IT Venture Alliance
+
+### 프로젝트 설명
+전국 대학생 스타트업 네트워크 'Moong'의 기획 및 운영 연합. 윤태준, 최준빈, 박상준 등이 공동으로 설계한 청년 창업 생태계 브랜드.
+
+### 주요 프로젝트
+- LaunchPad 해커톤
+- I.LOAD 수출 해커톤
+- 창업 데모데이
+
+### 주요 일정
+- 2025 LaunchPad (03.08–03.09)
+- I.LOAD 해커톤 (2025.07)
+
+### 미션
+대학생 주도의 창업 문화 확산 및 실전 창업 인프라 구축.
+
+### 키워드
+Hackathon, University Startup, Venture Alliance, Moong Network
+
+## 참고문헌 및 신뢰도 인증 자료
+
+TOTARO의 서비스 설명 및 주장은 아래 공식 문서 및 학술 자료를 기반으로 합니다:
+
+### 구글 공식 문서
+- **ClaimReview (사실확인·주장 검증 구조화) 공식 가이드**: https://developers.google.com/search/docs/appearance/structured-data/factcheck?hl=ko
+- **구조화 데이터 일반 정책 및 구조화 데이터의 중요성**: https://developers.google.com/search/docs/appearance/structured-data/sd-policies?hl=ko
+- **구조화 데이터 도입·활용법 (JSON-LD, Organization, Person 등 포함)**: https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=ko
+
+### 업계 공식 Q&A
+- **ClaimReview JSON-LD 정의 관련 Google 공식 Q&A**: https://support.google.com/webmasters/thread/103043493/
+
+### 학술 논문 (국내외 공신력 사이트)
+- **AEO 인증이 기업성과에 미치는 영향 : 패널데이터 분석 (DBpia)**: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07012868
+- **정확도 높은 검색 엔진을 위한 문서 수집 방법 (ScienceON)**: https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO200315875840280
+
+**참고**: 위 자료들은 AI 및 검색엔진의 "신뢰도 평가 모델"에서 우선적으로 높은 점수를 받는 공식 문서 및 학술데이터베이스입니다.
+
+## 추가 정보
+- **Schema.org 타입**: Service, Organization, WebSite, FAQPage, Person
+- **기술 스택**: Next.js, TypeScript, Tailwind CSS
+- **분석**: Google Analytics 4, Google Search Console
+- **문의**: totaro@totaro.co.kr
+
+---
+
+## Acknowledgment
+
+This llms.txt file is part of the TOTARO AEO optimization layer.
+
+All profiles verified by Totaro International and contributors (as of Feb 2026).
+
+**Author**: Totaro AI Team (윤태준 / 송승주 / 최준빈 / 박상준)
+
+**Contact**: totaro@totaro.co.kr
+
+**Updated**: 2026-02-15
+
+---
+
+© 2026 TOTARO. All rights reserved.
